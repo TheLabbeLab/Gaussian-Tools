@@ -1,8 +1,8 @@
 import os
 
 run_shell_script = """#!/bin/bash
-#SBATCH --partition=amem
-#SBATCH --qos=mem
+#SBATCH --partition=amilan
+#SBATCH --qos=normal
 #SBATCH --nodes=1
 #SBATCH --ntasks-per-node=32
 #SBATCH --time=24:00:00
